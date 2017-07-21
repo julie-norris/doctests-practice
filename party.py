@@ -12,13 +12,13 @@ def is_mel(name, email):
 
     >>> is_mel('Mel Melitpolski', 'mel@ubermelon.com')
     True
-    
+
     >>> is_mel('Judith Butler', 'judith@awesome.com')
     False
-    
+
     >>> is_mel('Mel Melitpolski', 'melon@ubermelon.com')
     True
-    
+
     >>> is_mel('Melon Melitpolski', 'mel@ubermelon.com')
     True
 

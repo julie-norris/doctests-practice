@@ -24,7 +24,8 @@ class PartyTests(unittest.TestCase):
 
         result = self.client.get("/")
         self.assertIn("Please RSVP", result.data)
-
+        # the result line tells which route to go to, this "/" goes to the
+        #homepage. The self.assertIn checks if the string is in the html.  
         result = self.client.get("/")
         self.assertIsNot("Party Details", result.data)
 
